@@ -1,0 +1,71 @@
+/*
+Colors: html - #f3f8ff
+               #deecff
+               #c6cfff
+               #e8d3ff
+*/
+
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Markazi Text', serif; */
+
+
+/*General elements*/
+
+html{
+  background-color: #f3f8ff;
+}
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Markazi Text', serif;
+}
+
+p{
+  font-family: 'Roboto Slab', serif;
+  margin: none;
+
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+table tr td{
+  font-family: 'Roboto Slab', serif;
+}
+.top-container h1 {
+  margin-top: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+.top-container {
+  background-color: #f3f8ff;
+  position: relative;
+
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.top-rainbow {
+  position: relative;
+  margin: 0 auto;
+}
+
+.bottom-rainbow {
+  position: relative;
+  margin: 0 auto;
+}
+table {
+  margin: 0 auto;
+}
