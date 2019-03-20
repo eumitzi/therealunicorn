@@ -7,11 +7,7 @@ Colors: html - #f3f8ff
 
 /* font-family: 'Roboto Slab', serif;
 font-family: 'Indie Flower', cursive;
-font-family: 'Markazi Text', serif;
-
-100% = 16px
- */
-
+font-family: 'Markazi Text', serif; */
 
 
 /*General elements*/
@@ -26,7 +22,6 @@ body {
 
 h2{
   font-family: 'Markazi Text', serif;
-  font-size: 2.5rem;
 }
 
 p{
@@ -44,36 +39,9 @@ table tr td{
   font-family: 'Roboto Slab', serif;
 }
 .top-container h1 {
-  margin: 40px auto 0 auto;
+  margin-top: 0;
   font-family: 'Indie Flower', cursive;
-  font-size: 5.5rem; /* dinamic unit*/
-
 }
-
-table {
-  margin: 0 auto;
-}
-
-hr {
-  border:none;
-  border-top: 10px dotted #c6cfff;
-  margin: 40px auto;
-  height:1%;
-  width:50%;
-}
-
-a {
-  color:  #000;
-  font-family: Roboto Slab;
-  margin: 10px 10px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: purple;
-}
-
-/* Classes and Ids*/
 
 .top-container {
   background-color: #f3f8ff;
@@ -98,45 +66,6 @@ a:hover {
   position: relative;
   margin: 0 auto;
 }
-
-.bottom-container {
-  padding: 10px;
-  background-color: #c6cfff;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-
-}
-
-.btn {
-  background: #fef5ff;
-  background-image: -webkit-linear-gradient(top, #fef5ff, #c6cfff);
-  background-image: -moz-linear-gradient(top, #fef5ff, #c6cfff);
-  background-image: -ms-linear-gradient(top, #fef5ff, #c6cfff);
-  background-image: -o-linear-gradient(top, #fef5ff, #c6cfff);
-  background-image: linear-gradient(to bottom, #fef5ff, #c6cfff);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Roboto Slab;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #e671e2;
-  background-image: -webkit-linear-gradient(top, #e671e2, #c334d9);
-  background-image: -moz-linear-gradient(top, #e671e2, #c334d9);
-  background-image: -ms-linear-gradient(top, #e671e2, #c334d9);
-  background-image: -o-linear-gradient(top, #e671e2, #c334d9);
-  background-image: linear-gradient(to bottom, #e671e2, #c334d9);
-  text-decoration: none;
-}
-
-.copyright {
-  font-size: 0.76rem;
+table {
+  margin: 0 auto;
 }
