@@ -44,7 +44,7 @@ table tr td{
   font-family: 'Roboto Slab', serif;
 }
 .top-container h1 {
-  margin: 40px auto 0 auto;
+  margin: 20px auto 0 auto;
   font-family: 'Indie Flower', cursive;
   font-size: 5.5rem; /* dinamic unit*/
 
@@ -78,13 +78,17 @@ a:hover {
 }
 
 /* Classes and Ids*/
+.top-rainbow {
+  width: 250px;
+  height: 250px;
+  transform: rotate(10deg);
+}
 
 .top-container {
   background-color: #f3f8ff;
   position: relative;
   margin-top: 60px;
 }
-
 
 .middle-container {
 
@@ -144,4 +148,20 @@ a:hover {
 
 .copyright {
   font-size: 0.76rem;
+}
+ /* Hobbies */
+.hobbies-box {
+ text-align: center;
+ margin-top: 10px;
+}
+
+.hobby {
+  margin-top: 20px;
+}
+
+/* Icons */
+
+.icon {
+  color: #c6cfff;
+  margin-bottom: 10px;
 }
